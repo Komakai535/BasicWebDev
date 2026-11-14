@@ -8,10 +8,15 @@ body {
   background-color: oklch(21.6% 0.006 56.043);
   color: #fafaf9;
   font-family: "Sono", sans-serif;
-  padding: 40px;
+  padding: 48px 64px;
 }
 
 /* Main Layout*/
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
 .header {
   margin-bottom: 40px;
   padding: 10px;
@@ -39,6 +44,13 @@ body {
   align-items: center;
   gap: 16px;
 }
+
+/*decendant of class logo*/
+.logo img {
+  width: 68px;
+  height: 68px;
+}
+
 h1 {
   font-size: 42px;
   text-transform: uppercase;
