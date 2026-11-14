@@ -1,19 +1,30 @@
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 body {
   background-color: oklch(21.6% 0.006 56.043);
   color: #fafaf9;
   font-family: "Sono", sans-serif;
+  padding: 40px;
+}
+
+.header {
+  margin-bottom: 40px;
 }
 
 .fact-form {
   background-color: oklch(37.4% 0.01 67.558);
+  margin-bottom: 40px;
+  padding: 16px 40px;
+  text-align: center;
 }
 
 h1 {
   font-size: 42px;
   text-transform: uppercase;
-  text-align: center;
   font-family: "Coiny", sans-serif;
 }
 
@@ -21,14 +32,18 @@ h1 {
   font-size: 20px;
   line-height: 1.4;
   font-family: sans-serif;
-
+  margin-bottom: 16px;
   background-color: oklch(37.4% 0.01 67.558);
+  padding: 16px 24px;
 }
 
 .tag {
   text-transform: uppercase;
   font-size: 14px;
   font-family: "Coiny", sans-serif;
+  padding-top: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 ul {
