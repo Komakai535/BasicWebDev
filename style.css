@@ -89,3 +89,15 @@ h1 {
 ul {
   list-style: none;
 }
+
+.source:link,
+.source:visited {
+  color: oklch(55.3% 0.013 58.071);
+  text-decoration: none;
+  margin-left: 12px;
+}
+
+.source:hover,
+.source:active {
+  color: #3b82f6;
+}
