@@ -1,18 +1,34 @@
+* {
+}
+body {
+  background-color: oklch(21.6% 0.006 56.043);
+  color: #fafaf9;
+  font-family: "Sono", sans-serif;
+}
+
+.fact-form {
+  background-color: oklch(37.4% 0.01 67.558);
+}
+
 h1 {
   font-size: 42px;
   text-transform: uppercase;
   text-align: center;
+  font-family: "Coiny", sans-serif;
 }
 
-p {
+.fact {
   font-size: 20px;
   line-height: 1.4;
   font-family: sans-serif;
+
+  background-color: oklch(37.4% 0.01 67.558);
 }
 
-span {
+.tag {
   text-transform: uppercase;
   font-size: 14px;
+  font-family: "Coiny", sans-serif;
 }
 
 ul {
