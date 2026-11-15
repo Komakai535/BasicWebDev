@@ -29,8 +29,11 @@ body {
 .fact-form {
   background-color: oklch(37.4% 0.01 67.558);
   margin-bottom: 40px;
-  padding: 16px 40px;
-  text-align: center;
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-radius: 16px;
 }
 .main {
   display: grid;
@@ -70,7 +73,7 @@ h1 {
   background-color: oklch(37.4% 0.01 67.558);
   padding: 16px 24px;
   letter-spacing: -1px;
-
+  border-radius: 16px;
   display: flex;
   align-items: center;
   gap: 24px;
@@ -159,4 +162,30 @@ ul {
 .btn-category {
   width: 100%;
   background-image: none;
+}
+
+.fact-form input,
+.fact-form select {
+  max-width: 220px;
+  background-color: oklch(55.3% 0.013 58.071);
+  border: none;
+  border-radius: 100px;
+  padding: 16px;
+  font-size: 18px;
+  color: inherit;
+  font-family: inherit;
+}
+
+.fact-form input::placeholder {
+  color: oklch(70.9% 0.01 56.259);
+}
+
+.fact-form input:first-child {
+  flex-grow: 1;
+}
+
+.fact-form span {
+  font-weight: 600;
+  font-size: 18px;
+  margin-right: 18px;
 }
